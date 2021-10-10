@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <Section>
+  <Section id="projects">
     <SectionDivider />
     <SectionTitle main>
       Projects
@@ -32,6 +32,8 @@ const Projects = () => (
         </BlogCard>);
       })}
     </GridContainer>
+    <br/>
+    <SectionDivider/>
   </Section>
 );
 
