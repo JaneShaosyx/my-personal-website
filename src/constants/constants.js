@@ -1,4 +1,4 @@
-const isDeploy = true;
+const isDeploy = false;
 export const prefix = isDeploy ? "/my-personal-website" : "";
 
 export const projects = [

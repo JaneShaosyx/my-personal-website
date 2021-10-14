@@ -34,11 +34,9 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href={prefix + "/statics/resume.pdf"}>
-          <NavLink>
-            CV
-          </NavLink>
-        </a>
+        <NavLink href={prefix + "/statics/resume.pdf"}>
+          CV
+        </NavLink>
       </li>
     </Div2>
     <Div3>
