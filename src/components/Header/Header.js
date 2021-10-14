@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-
+import { prefix } from '../../constants/constants';
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
@@ -34,7 +34,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href="./statics/resume.pdf">
+        <a href={prefix + "/statics/resume.pdf"}>
           <NavLink>
             CV
           </NavLink>

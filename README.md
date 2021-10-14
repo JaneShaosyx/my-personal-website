@@ -1,3 +1,3 @@
 ## Personal Website
 
-![Personal Website](https://i.ibb.co/WgPMpts/image.png)
+![Personal Website](./public/images/5.png)
