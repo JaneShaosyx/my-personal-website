@@ -27,7 +27,7 @@ const Timeline = () => {
 
   const scroll = (node, left) => {
     return node.scrollTo({ left, behavior: 'smooth' });
-  }
+  };
 
   const handleClick = (e, i) => {
     e.preventDefault();
@@ -47,22 +47,24 @@ const Timeline = () => {
 
       setActiveItem(index);
     }
-  }
+  };
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
-    }
+    };
 
     window.addEventListener('resize', handleResize);
   }, []);
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>xxxxx</SectionText>
+      <SectionText>Hi, there! I'm Yuxin. I am currently a software engineering major graduate at Montreal. I love thinking, taking photos, and playing video games. I started my coding journey back to my high school and went to McGill University to study software engineering after that.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -125,7 +127,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider/>
+      <SectionDivider />
     </Section>
   );
 };

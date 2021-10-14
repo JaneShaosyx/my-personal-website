@@ -6,8 +6,7 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section id="projects">
-    <SectionDivider />
-    <SectionTitle main>
+    <SectionTitle>
       Projects
     </SectionTitle>
     <GridContainer>
@@ -33,7 +32,6 @@ const Projects = () => (
       })}
     </GridContainer>
     <br/>
-    <SectionDivider/>
   </Section>
 );
 

@@ -9,10 +9,23 @@ const Header = () => (
   <Container>
     <Div1>
       <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}>
-        <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+        <DiCssdeck size="3rem" /> <Span>Yuxin Shao</Span>
       </a>
     </Div1>
     <Div2>
+      <li>
+        <Link href="#about">
+          <NavLink>
+            About
+          </NavLink>
+        </Link>
+      </li> <li>
+        <Link href="#tech">
+          <NavLink>
+            Technologies
+          </NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink>
@@ -21,18 +34,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <a href="./statics/resume.pdf">
           <NavLink>
-            Technologies
+            CV
           </NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about">
-          <NavLink>
-            About
-          </NavLink>
-        </Link>
+        </a>
       </li>
     </Div2>
     <Div3>

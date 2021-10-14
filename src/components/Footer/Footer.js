@@ -10,7 +10,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkItem href="tel:438-722-9531">438-722-9531</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>xxxxxxx</Slogan>
+          <Slogan>Happy Coding!</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://www.github.com/JaneShaosyx">
